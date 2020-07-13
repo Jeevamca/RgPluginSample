@@ -9,7 +9,7 @@
                 x:Name="btn1"
                 Clicked="Btn1_Clicked"
                 HorizontalOptions="CenterAndExpand"
-                Text="btn1"
+                Text="Show Popup window"
                 VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
