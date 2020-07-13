@@ -10,8 +10,8 @@
     mc:Ignorable="d">
 
     <StackLayout
-        Padding="20,0"
-        HorizontalOptions="FillAndExpand"
+         BackgroundColor="White"
+        
         VerticalOptions="Center">
        
             <StackLayout Padding="10">
