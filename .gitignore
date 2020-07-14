@@ -3,3 +3,8 @@
 ################################################################################
 
 /UWP1/UWP1/UWP1/bin/Debug/netstandard2.0
+/UWP1/UWP1/UWP1/obj
+/UWP1/UWP1/UWP1.UWP/bin/x86/Debug
+/UWP1/UWP1/UWP1.UWP/obj
+/UWP1/.vs/UWP1/DesignTimeBuild
+/UWP1/.vs/UWP1/v16

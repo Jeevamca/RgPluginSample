@@ -9,6 +9,7 @@ namespace UWP1
     {
         public App()
         {
+
             InitializeComponent();
 
             MainPage = new Page1();

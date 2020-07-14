@@ -146,6 +146,9 @@
     <PackageReference Include="Rg.Plugins.Popup">
       <Version>2.0.0.2</Version>
     </PackageReference>
+    <PackageReference Include="Syncfusion.Xamarin.SfComboBox">
+      <Version>18.1.0.59</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.7.0.1080" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.5" />
   </ItemGroup>

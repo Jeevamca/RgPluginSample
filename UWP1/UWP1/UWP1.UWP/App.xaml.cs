@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Syncfusion.XForms.UWP.ComboBox;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -52,9 +54,17 @@ namespace UWP1.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
+
+                List<Assembly> assembliesToInclude = new List<Assembly>
+                {
+                    typeof(SfComboBoxRenderer).GetTypeInfo().Assembly
+                };
+                foreach (var item in Popup.GetExtraAssemblies()) {
+                    assembliesToInclude.Add(item);
+                }
                 Popup.Init();
 
-                Xamarin.Forms.Forms.Init(e, Popup.GetExtraAssemblies());
+                Xamarin.Forms.Forms.Init(e,assembliesToInclude );
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {
