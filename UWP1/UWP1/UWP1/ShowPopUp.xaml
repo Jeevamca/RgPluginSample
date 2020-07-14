@@ -16,7 +16,7 @@
         VerticalOptions="Center">
        
             <StackLayout Padding="10">
-            <SfControl:SfComboBox DataSource="{Binding models}" DisplayMemberPath="name">
+            <SfControl:SfComboBox DataSource="{Binding models}"  DisplayMemberPath="name">
                 
             </SfControl:SfComboBox>
                 <!--<ListView ItemsSource="{Binding models}">
